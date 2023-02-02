@@ -20,4 +20,4 @@ steps:
     azureSubscription: 'azure connection1'
     ScriptType: 'InlineScript'
     Inline: |
-     new-azresourcegroup -name $rgname -location $loc
+     new-azresourcegroup -name $(rgname) -location $(loc)
